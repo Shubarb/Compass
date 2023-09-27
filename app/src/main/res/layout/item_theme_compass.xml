@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data></data>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/compassItem"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="30dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgCompassTheme"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/compass_one"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imgNeedleTheme"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/needle_five"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#272727"
+        tools:context=".view.view.PermissionActivity">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/permission"
+            android:layout_marginTop="121dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permission"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="285dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="354dp"
+            android:fontFamily="@font/poppins"
+            android:text="Location Access"
+            android:textColor="@color/white" />
+        <Switch
+            android:id="@+id/switc"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:checked="false"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="340dp"/>
+
+        <RelativeLayout
+            android:id="@+id/btnContinue2"
+            android:layout_width="112dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="463dp"
+            android:gravity="center"
+            android:background="@drawable/bgr_btn"
+            android:layout_marginStart="150dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/native_app"
+            android:layout_marginTop="597dp"/>
+    </RelativeLayout>
+</layout>

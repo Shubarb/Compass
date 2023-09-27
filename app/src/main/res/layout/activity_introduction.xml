@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data></data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#272727"
+        tools:context=".view.view.introduction.IntroductionActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"
+                android:layout_marginStart="11dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Introduction"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/point"
+            android:layout_marginTop="112dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Swing your mobile several times in a \nfinger 8 motion"
+            android:textColor="@color/white"
+            android:layout_marginTop="108dp"
+            android:layout_marginStart="49dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intro_two"
+            android:layout_marginTop="194dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/point"
+            android:layout_marginTop="316dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="A magnetic field strength value between \n 30uT -60uT should give \n realiable calibration."
+            android:textColor="@color/white"
+            android:layout_marginTop="313dp"
+            android:layout_marginStart="49dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intro_one"
+            android:layout_marginTop="398dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/point"
+            android:layout_marginTop="527dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Or Rotate your mobile by moving 3 \n direction as shown above"
+            android:textColor="@color/white"
+            android:layout_marginTop="524dp"
+            android:layout_marginStart="49dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/point"
+            android:layout_marginTop="584dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Take your smartphone out of its cover \n if the cover contains a magnet"
+            android:textColor="@color/white"
+            android:layout_marginTop="580dp"
+            android:layout_marginStart="49dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/point"
+            android:layout_marginTop="644dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="If you still cant get the compass properly \n functioning , please reset your phone"
+            android:textColor="@color/white"
+            android:layout_marginTop="640dp"
+            android:layout_marginStart="49dp"/>
+
+    </RelativeLayout>
+
+
+
+</layout>

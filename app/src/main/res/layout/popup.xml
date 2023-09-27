@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="@drawable/popup_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Remove Ads"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="170dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Say goodbye to annoying \n ads on your favorite app site."
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginTop="210dp"/>
+
+        <RelativeLayout
+            android:id="@+id/btnPay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="300dp"
+            android:gravity="center"
+            android:background="@drawable/bgr_btn_only_color"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Only 5$"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btnLater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Later"
+            android:textColor="#ACABAB"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

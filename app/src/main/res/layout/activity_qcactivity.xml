@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#272727"
+        tools:context=".view.view.QCActivity">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="match_parent"
+            android:layout_height="490dp"/>
+        <me.relex.circleindicator.CircleIndicator3
+            android:id="@+id/indicator"
+            android:layout_width="43.52dp"
+            android:layout_height="3.86dp"
+            android:layout_marginTop="374dp"
+            android:layout_marginStart="157dp" />
+
+        <TextView
+            android:id="@+id/btnSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="561dp"
+            android:fontFamily="@font/poppins"
+            android:text="Skip"
+            android:textColor="#686767"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:id="@+id/btnContinue"
+            android:layout_width="112dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="552dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="27dp"
+            android:gravity="center"
+            android:background="@drawable/bgr_btn"
+            android:layout_marginStart="150dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/native_app"
+            android:layout_marginTop="597dp"/>
+    </RelativeLayout>
+</layout>

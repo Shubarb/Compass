@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingStart="29dp"
+    android:paddingEnd="29dp">
+
+    <ImageView
+        android:id="@+id/imgLanguage"
+        android:layout_width="29dp"
+        android:layout_height="match_parent"
+        android:src="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="77dp"
+        android:fontFamily="@font/poppins"
+        android:text="VietNam"
+        android:textColor="@color/white" />
+    <RadioButton
+        android:id="@+id/radioLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

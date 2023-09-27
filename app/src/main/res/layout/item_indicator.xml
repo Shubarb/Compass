@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgQC"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:src="@drawable/anh_first"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="394dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Digital Compass"
+        android:textColor="#006FFE"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="446dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:maxLines="3"
+        android:text="The simplest navigation tool pointing \n to your destination"
+        android:textSize="12sp" />
+</RelativeLayout>

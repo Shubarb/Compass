@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#802B2A2A"
+        tools:context=".view.view.main.TypeCompassFragment">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:background="@drawable/shape_home"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/close_down"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Compass Type"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="36dp"/>
+
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/feng_shui"
+                android:layout_marginTop="101dp"
+                android:layout_marginStart="50dp"/>
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/cycle_map"
+                android:layout_marginTop="95dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feng Shui"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="220dp"
+                android:layout_marginStart="70dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="220dp"
+                android:layout_marginEnd="90dp"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</layout>
